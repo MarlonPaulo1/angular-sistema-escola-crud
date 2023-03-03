@@ -12,7 +12,7 @@ export class CourseCreateComponent {
   constructor(private courseService: CourseService){}
 
   course: Course = {
-    nome: '',
+    nome: 'Marlon',
     instrutor: '',
     local: '',
     cargaHoraria: 0,

@@ -14,7 +14,7 @@ export class CourseService {
 
   create(course: Course): Observable<Course> {
     return this.http.post<Course>(this.baseUrl, course).pipe(
-      map((obj) => obj)
-    )
+      map((obj) => obj) 
+    ) 
   }
 }

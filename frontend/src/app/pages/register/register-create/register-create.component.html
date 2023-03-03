@@ -1,0 +1,24 @@
+<div class="container border border-secondary-subtle p-3" >
+    <app-title title="Matricula - Incluir"></app-title>
+    <form>
+        <app-select label="Aluno"></app-select>   
+    </form>
+    <div class="container border border-secondary-subtle p-3">
+        <app-title title="Adicionar Curso"></app-title>
+        <div class="row">
+            <div class="col">
+                <app-select label="Curso"></app-select>         
+            </div>
+            <div class="col">
+                <app-input label="Data Matricula" type="date"></app-input>    
+            </div>
+            <app-button name="Adicionar"></app-button>  
+        </div> 
+        <app-table></app-table>
+        <div class="d-flex">
+            <div><app-button name="Incluir"></app-button></div>
+            <div class="mx-2"><app-button name="Voltar" routerLink="/register/read"></app-button></div>
+        </div>
+    </div>
+    
+</div>

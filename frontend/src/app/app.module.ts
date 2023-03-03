@@ -13,6 +13,11 @@ import { HeaderComponent } from './template/header/header.component';
 import { NavMenuComponent } from './template/nav-menu/nav-menu.component';
 import { CourseReadComponent } from './pages/course/course-read/course-read.component';
 import { CourseCreateComponent } from './pages/course/course-create/course-create.component';
+import { StudentReadComponent } from './pages/student/student-read/student-read.component';
+import { StudentCreateComponent } from './pages/student/student-create/student-create.component';
+import { RegisterReadComponent } from './pages/register/register-read/register-read.component';
+import { RegisterCreateComponent } from './pages/register/register-create/register-create.component';
+import { SelectComponent } from './components/select/select.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +29,12 @@ import { CourseCreateComponent } from './pages/course/course-create/course-creat
     HeaderComponent,
     NavMenuComponent,
     CourseReadComponent,
-    CourseCreateComponent
+    CourseCreateComponent,
+    StudentReadComponent,
+    StudentCreateComponent,
+    RegisterReadComponent,
+    RegisterCreateComponent,
+    SelectComponent
   ],
   imports: [
     BrowserModule,

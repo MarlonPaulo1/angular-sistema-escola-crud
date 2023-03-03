@@ -1,9 +1,6 @@
 <div class="container border border-secondary-subtle p-3" >
-    <app-title title="Curso - Incluir"></app-title>
+    <app-title title="Aluno - Incluir"></app-title>
     <form>
-        <app-input label="Nome" type="text"></app-input>  
-        <app-input label="Instrutor" type="text"></app-input>  
-        <app-input label="Local" type="text"></app-input>
         <div class="row">
             <div class="col">
                 <app-input label="Carga Horária" type="number" model="course.nome" name="nome"></app-input>     
@@ -15,6 +12,6 @@
     </form>
     <div class="d-flex">
         <div><app-button name="Incluir"></app-button></div>
-        <div class="mx-2"><app-button name="Voltar" routerLink=""></app-button></div>
+        <div class="mx-2"><app-button name="Voltar" routerLink="/student/read"></app-button></div>
     </div>
 </div>
